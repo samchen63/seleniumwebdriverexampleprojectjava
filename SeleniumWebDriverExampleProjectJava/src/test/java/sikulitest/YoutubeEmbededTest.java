@@ -1,5 +1,5 @@
 //-----------------------------------------------------------------------------
-// <copyright file="EmbeddedYoutubeTest.java" company="Planit Testing">
+// <copyright file="YoutubeEmbededTest.java" company="Planit Testing">
 //      Copyright © 2019 Planit Testing.
 //      All rights reserved.
 // </copyright>
@@ -19,7 +19,7 @@ import pages.YoutubeEmbeddedPage;
 /*
  * To test functionality of embedded youtube on planit testing web site
  */
-public class EmbeddedYoutubeTest extends BaseTest {
+public class YoutubeEmbededTest extends BaseTest {
 
 	/* 
      * Verify embedded youtube video can be muted
