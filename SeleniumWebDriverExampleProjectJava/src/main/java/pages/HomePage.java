@@ -17,10 +17,12 @@ import elements.Link;
 public class HomePage extends Page{
 
 	private Link bookingLink;
+	private Link whatWeDoLink;
 	
 	public HomePage(WebDriver seleniumWebDriver) {
 		super(seleniumWebDriver);
-		 this.bookingLink = new Link(By.id("cartAnchorId"), seleniumWebDriver);
+		 bookingLink = new Link(By.id("cartAnchorId"), seleniumWebDriver);
+		 whatWeDoLink = new Link(By.id("p_lt_ctl02_MegaMenu_whatWeDoLink"), seleniumWebDriver);
 	}
 
 	public BookingPage clickCartLinkAndGoToBookingPage() {
@@ -29,4 +31,11 @@ public class HomePage extends Page{
         bookingLink.click();
         return new BookingPage(seleniumWebDriver);
     }
+	
+	public YoutubeEmbeddedPage clickWhatWeDoLinkAndGoToYoutubeEmbeddedPage() {
+		// Wait for what we do link present before clicking it
+		whatWeDoLink.waitForElementPresent();
+		whatWeDoLink.click();
+		return new YoutubeEmbeddedPage(seleniumWebDriver);
+	}
 }
