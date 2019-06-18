@@ -1,11 +1,3 @@
-//-----------------------------------------------------------------------------
-// <copyright file="HomePageStepDefinition.java" company="Planit Testing">
-//      Copyright © 2019 Planit Testing.
-//      All rights reserved.
-// </copyright>
-// <created>10/04/2019</created>
-// <author>Sam Chen</author>
-//-----------------------------------------------------------------------------
 package cucumbertest.stepdefinition;
 
 import cucumber.api.java.en.Given;	
