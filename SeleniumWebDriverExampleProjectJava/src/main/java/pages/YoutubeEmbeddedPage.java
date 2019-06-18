@@ -1,11 +1,3 @@
-//-----------------------------------------------------------------------------
-// <copyright file="YoutubeEmbeddedPage.java" company="Planit Testing">
-//      Copyright © 2019 Planit Testing.
-//      All rights reserved.
-// </copyright>
-// <created>17/04/2019</created>
-// <author>Sam Chen</author>
-//-----------------------------------------------------------------------------
 package pages;
 
 import elements.Link;
